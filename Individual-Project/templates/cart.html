@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="static/css/cart.css">
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping Bag
+  </div>
+
+  <!-- Product #1 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+
+    <div class="image">
+      <img src="static/images/camienne-sandals.jpeg" alt="" height="100"/>
+    </div>
+
+    <div class="description">
+      <span>Common Projects</span>
+      <span>Bball High</span>
+      <span>White</span>
+    </div>
+
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="static/images/plus-img.png" alt="error" height="10"/>
+      </button>
+      <input type="text" placeholder="{{users[login_session['user']['localId']]['Cart']['sum_prod']}}" name="name"/>
+      <button class="minus-btn" type="button" name="button">
+        <img src="static/images/minus-img.png" alt="error" height="10"/>
+      </button>
+    </div>
+
+    <div class="total-price">$549</div>
+  </div>
+
+</div>
+  </div>
+<script src="static/js/cart.js"></script>
+</body>
+</html>
